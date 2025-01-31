@@ -6,16 +6,15 @@ import "./App.css";
 import Button from "./components/Button";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
+import Benefits from "./components/Benefits";
 
 const App = () => {
   return (
     <>
       <div className="pt-[4.75rem] lg:pt-[5.25rem] overflow-hidden">
-        {/* <Button className="mt-20" href={"#login"}>
-          Click me!
-        </Button> */}
         <Header />
         <Hero />
+        <Benefits />
       </div>
       <ButtonGradient />
     </>
